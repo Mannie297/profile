@@ -1,6 +1,7 @@
 import React from 'react'
 import {motion} from 'framer-motion';
 import { styles } from '../style';
+import { EarthCanvas } from './canvas';
 import { ComputersCanvas } from './canvas';
 
 
@@ -28,8 +29,16 @@ const Hero = () => {
         </div>
 
       </div>
+
+      <div className='absolute h-80 mt-80 w-full
+      flex justify-center items-center'>
+        <EarthCanvas/>
+
+      </div>
+
       
-      <ComputersCanvas/>
+      
+      {/*<ComputersCanvas/>*/}
 
       <div className='absolute xs:bottom-10 bottom-20 w-full
       flex justify-center items-center'>
