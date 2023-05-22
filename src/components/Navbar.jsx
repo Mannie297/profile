@@ -22,7 +22,7 @@ const Navbar = () => {
             setActive('');
             window.scrollTo(0,0);
           }}>
-            <img src={loggo} alt='logo' className='w-9 h-9 object-contain'/>
+            <img src={loggo} alt='logo' className='w-15 h-9 rounded-[50px] object-contain'/>
 
             <p className='text-white text-[18px] font-bold cursor-pointer flex'>
               Emmanuel Okelue &nbsp;<span className='sm:block hidden'>| Porfolio </span>

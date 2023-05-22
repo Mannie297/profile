@@ -4,6 +4,7 @@ import { styles } from '../style';
 import { EarthCanvas } from './canvas';
 import { ComputersCanvas } from './canvas';
 import { StarsCanvas} from '../components';
+import {reactjs} from '../assets';
 
 
 
@@ -25,7 +26,7 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915eff]'>Emmanuel</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden'/> interfaces, and web applications.
+            I develop 3D visuals, User <br className='sm:block hidden'/> interfaces, and Web Applications.
           </p>
 
         </div>
@@ -33,10 +34,16 @@ const Hero = () => {
       </div>    
       
       {/*<ComputersCanvas/>*/}
+      <div className='absolute xs:bottom-10 bottom-80 w-full
+        flex justify-center items-center'>
+        <img src={reactjs} alt='billing' className='w-[50%]
+          h-[30%] relative z-[5]'/>
+      </div>
+      
       
 
       
-      <div className='absolute xs:bottom-10 bottom-20 w-full
+      <div className='absolute xs:bottom-10 bottom-32 w-full
       flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl 
