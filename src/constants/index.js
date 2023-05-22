@@ -20,7 +20,7 @@ import {
     tesla,
     shopify,
     carrent,
-    protwo,
+    prospeaker,
     jobit,
     tripguide,
     threejs,
@@ -192,7 +192,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: protwo,
+      image: prospeaker,
       source_code_link: "https://ecommerce-store-flax.vercel.app/",
     },
     {
