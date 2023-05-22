@@ -9,7 +9,7 @@ import SectionWrapper from '../hoc/SectionWrapper';
 
 const ServiceCard = ({index, title, icon}) => {
   return (
-    <Tilt className='xs:w-[250px] w-full'>
+    <Tilt className='xs:w-[220px] w-full'>
       <motion.div 
         variants={fadeIn('right', 'spring', 0.25*index, 0.75)}
         className='w-full green-pink-gradient p-[1px] 
@@ -22,7 +22,7 @@ const ServiceCard = ({index, title, icon}) => {
             scale: 1,
             speed: 450
           }}
-          className='bg-tertiary rounded-[20px] py-5 px-12 
+          className='bg-tertiary rounded-[20px] py-5 px-12  
           min-h-[280px] flex justify-evenly items-center flex-col'
         >
           <img src={icon} alt={title}
@@ -61,7 +61,7 @@ const About = () => {
 
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-12'>
+      <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service}/>
         ))}

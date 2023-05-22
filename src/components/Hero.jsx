@@ -34,7 +34,7 @@ const Hero = () => {
       </div>    
       
       {/*<ComputersCanvas/>*/}
-      <div className='absolute xs:bottom-10 bottom-80 md:bottom-40 bottom-60 xl:bottom-1 bottom-60 w-full
+      <div className='absolute xs:bottom-10 bottom-80 md:bottom-40 bottom-60 xl:bottom-1 bottom-30 w-full
         flex justify-center items-center'>
         <img src={reactjs} alt='billing' className='w-[30%]
           h-[30%] relative z-[5]'/>
