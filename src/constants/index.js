@@ -20,6 +20,7 @@ import {
     tesla,
     shopify,
     carrent,
+    proone,
     jobit,
     tripguide,
     threejs,
@@ -176,23 +177,23 @@ import {
     {
       name: "Car Rent",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based ecommerce platform that allows users to search and buy the lastest headphones. This platform is integrated with Stripe checkout for easy payment.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "NextJs",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: proone,
+      source_code_link: "https://ecommerce-store-flax.vercel.app/",
     },
     {
       name: "Job IT",
