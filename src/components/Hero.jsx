@@ -33,7 +33,7 @@ const Hero = () => {
 
       </div>    
       
-      <div className=' relative 2xl:w-full h-[110%] ss:hidden flex flex-1 justify-end items-center'>
+      <div className='relative 2xl:w-full h-[110%] hidden md:flex flex-1 justify-end items-center'>
         <ComputersCanvas/>
       </div>
       
