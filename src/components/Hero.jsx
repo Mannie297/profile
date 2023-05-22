@@ -3,6 +3,8 @@ import {motion} from 'framer-motion';
 import { styles } from '../style';
 import { EarthCanvas } from './canvas';
 import { ComputersCanvas } from './canvas';
+import { StarsCanvas} from '../components';
+
 
 
 const Hero = () => {
@@ -31,9 +33,9 @@ const Hero = () => {
       </div>    
       
       {/*<ComputersCanvas/>*/}
+      
 
-
-      {/*
+      
       <div className='absolute xs:bottom-10 bottom-20 w-full
       flex justify-center items-center'>
         <a href='#about'>
@@ -57,7 +59,7 @@ const Hero = () => {
         </a>
 
       </div>
-            */}
+            
 
     </section>
 
