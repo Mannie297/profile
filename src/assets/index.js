@@ -32,6 +32,7 @@ import prospeaker from "./prospeaker.png";
 import jobit from "./jobit.png";
 import hoobank from "./hoobank.png";
 import profile from "./profile.png";
+import heropic from "./heropic.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -65,6 +66,7 @@ export {
   prospeaker,
   jobit,
   hoobank,
+  heropic,
   profile,
   tripguide,
 };
