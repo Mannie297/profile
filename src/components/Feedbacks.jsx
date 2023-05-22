@@ -29,11 +29,16 @@ designation, company, image }) => (
         </p>
       </div>
 
+      {/*
       <img 
         src={image} 
         alt={`feedback-by-${name}`}
         className='w-20 h-20 rounded-full object-cover'
       />
+      
+      */}
+
+      
 
     </div>
   </div>

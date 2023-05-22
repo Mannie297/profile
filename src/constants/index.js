@@ -23,6 +23,8 @@ import {
     prospeaker,
     jobit,
     tripguide,
+    hoobank,
+    profile,
     threejs,
   } from "../assets";
   
@@ -150,25 +152,25 @@ import {
     {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Emmanuel proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+      name: "Jennifer",
+      designation: "CEO",
+      company: "Muud",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
         "I've never met a web developer who truly cares about their clients' success like Emmanuel does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+      name: "Chichi Mokolo",
+      designation: "CEO",
+      company: "Marvel",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
         "After Emmanuel optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
+      name: "Malizu Chigbo",
+      designation: "CEO",
+      company: "Ogamife",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
@@ -196,45 +198,45 @@ import {
       source_code_link: "https://ecommerce-store-flax.vercel.app/",
     },
     {
-      name: "Job IT",
+      name: "Work_Profile",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location",
+        "3D Web application profile desinged with React, JavaScript, TailwindCSS",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "JavaScript",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "TailwindCS",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: profile,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Hoobank",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A banking platform  project to showcase next generation payment methods.",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "JavaScript",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: hoobank,
       source_code_link: "https://github.com/",
     },
   ];
