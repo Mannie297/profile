@@ -37,7 +37,7 @@ const Hero = () => {
       
       <div className='absolute ss:bottom-20 bottom-80 xs:bottom-20 bottom-60 md:bottom-40 bottom-60 xl:bottom-1 bottom-30 w-full
         flex justify-center items-center'>
-        <img src={reactjs} alt='billing' className='w-[70%]
+        <img src={heropic} alt='billing' className='w-[70%]
           h-[50%] relative z-[5]'/>
       </div>
       
