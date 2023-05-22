@@ -72,18 +72,12 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    
     {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -92,10 +86,7 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+   
     {
       name: "Three JS",
       icon: threejs,
@@ -103,14 +94,6 @@ import {
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
