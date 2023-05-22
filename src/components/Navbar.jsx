@@ -22,13 +22,13 @@ const Navbar = () => {
             setActive('');
             window.scrollTo(0,0);
           }}>
-            <img src={loggo} alt='logo' className='w-15 h-9 rounded-[50px] object-contain'/>
+            <img src={loggo} alt='logo' className='w-12 h-9 rounded-[50px] object-contain'/>
 
-            <p className='text-white text-[18px] font-bold cursor-pointer flex'>
+            <p className='text-white text-[14px] font-bold cursor-pointer flex'>
               Emmanuel Okelue &nbsp;<span className='sm:block hidden'>| Porfolio </span>
             </p>        
         </Link>
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className='list-none hidden sm:flex flex-row gap-4'>
           {navLinks.map((link) => (
             <li
               key={link.id}
