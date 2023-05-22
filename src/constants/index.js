@@ -175,7 +175,7 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "eCommerce",
       description:
         "Web-based ecommerce platform that allows users to search and buy the lastest headphones. This platform is integrated with Stripe checkout for easy payment.",
       tags: [
