@@ -18,6 +18,7 @@ import {
     meta,
     starbucks,
     tesla,
+    vidi,
     shopify,
     carrent,
     prospeaker,
@@ -97,7 +98,7 @@ import {
     {
       title: "React.js Developer",
       company_name: "ViDi",
-      icon: tesla,
+      icon: vidi,
       iconBg: "#E6DEDD",
       date: "Jan 2020 - April 2021",
       points: [
@@ -110,7 +111,7 @@ import {
     {
       title: "Web Developer",
       company_name: "ViDi",
-      icon: tesla,
+      icon: vidi,
       iconBg: "#E6DEDD",
       date: "April 2021 - Jan 2023",
       points: [
@@ -123,7 +124,7 @@ import {
     {
       title: "Full stack Developer",
       company_name: "ViDi",
-      icon: tesla,
+      icon: vidi,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [

@@ -26,6 +26,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import vidi from "./company/vidi.png";
 
 import carrent from "./carrent.png";
 import prospeaker from "./prospeaker.png";
@@ -62,6 +63,7 @@ export {
   shopify,
   starbucks,
   tesla,
+  vidi,
   carrent,
   prospeaker,
   jobit,
